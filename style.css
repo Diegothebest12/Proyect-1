@@ -1,0 +1,147 @@
+*{
+    background-color: black;
+    color: white;}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: purple;
+    color: white;
+}
+h1{
+    background-color: purple;
+}
+#logo{
+    width: 100px;
+}
+h2{
+    background-color: rgb(164, 112, 14);
+}
+#N1{
+    height: 170px;
+    width: 160px
+
+}
+#N2{
+    height: 80px;
+}
+#N3{
+    height: 180px;
+    width: 170px 
+}
+.noticias{
+    display:flex;
+
+}
+.noticias aside{
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.noticias aside img{
+    margin-bottom:9rem;
+}
+
+.noticias section{
+    width: 60%;
+}
+.pie{
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(109,109,222);
+    color: white; 
+}
+.pie p{
+    background-color: rgb(109, 109, 222);
+}
+.pie form{
+    background-color: rgb(109, 109, 222);
+}
+
+.pie input{
+    background-color:rgb(38, 38, 87)
+}
+@media (min-width: 1024px){
+    *{
+        background-color: black;
+        color: white;}
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: purple;
+        color: white;
+        font-size: 30px;
+        font-family: 'Dancing Script', cursive;
+    }
+    h1{
+        background-color: purple;
+    }
+    #logo{
+        height: 170px;
+        width: 200px;
+    }
+    h2{
+        background-color: rgb(164, 112, 14);
+        font-family: 'Lobster', cursive;
+        font-size: 45px;
+    }
+    p{
+        text-align: start;
+        font-size: 35px;
+        font-family: 'Open Sans', sans-serif; 
+    }
+    li{
+        font-size: 30px;
+    }
+    #N1{
+        height: 400px;
+        width: 600px
+    
+    }
+    #N2{
+        height: 280px;
+    }
+    #N3{
+        height: 500px;
+        width: 600px 
+    }
+    .noticias{
+        display:flex;
+    
+    }
+    .noticias aside{
+        width:40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .noticias aside img{
+        margin-bottom:10rem;
+    }
+    
+    .noticias section{
+        width: 60%;
+        text-align: start;
+        font-size: 35px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .pie{
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(109,109,222);
+        color: white; 
+    }
+    .pie p{
+        background-color: rgb(109, 109, 222);
+        font-size: 35px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .pie form{
+        background-color: rgb(109, 109, 222);
+    }
+    .pie input{
+        background-color:rgb(38, 38, 87)
+    }
+}

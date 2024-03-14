@@ -1,0 +1,147 @@
+*{
+    background-color: black;
+    color: white;}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: purple;
+    color: white;
+}
+h1{
+    background-color: purple;
+}
+#logo{
+    width: 100px;
+}
+h2{
+    background-color: brown;
+}
+p{
+    text-align: center;
+}
+.juegos_platformer section article h3{
+    text-align: center;
+}
+.juegos_platformer section article p{
+    text-align: center;
+}
+#V1{
+    display: block;
+    margin: 0 auto 20px;
+    width: 370px;
+   
+}
+#V2{
+    display: block;
+    margin: 0 auto 20px;
+    height: 190px;
+}
+#V3{
+    display: block;
+    margin: 0 auto 20px;
+    height: 240px;
+}
+#V4{
+    display: block;
+    margin: 0 auto 20px;
+    height: 190px;
+}
+.pie{
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(109,109,222);
+    color: white; 
+}
+.pie p{
+    background-color: rgb(109, 109, 222);
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.pie form{
+    background-color: rgb(109, 109, 222);
+}
+
+.pie input{
+    background-color:rgb(38, 38, 87)
+}
+@media (min-width: 1024px){ 
+    *{
+        background-color: black;
+        color: white;}
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: purple;
+        color: white;
+        font-size: 30px;
+        font-family: 'Dancing Script', cursive;
+    }
+    #logo{
+        height: 170px;
+        width: 200px;
+    }
+    h1{
+        background-color: purple;
+        text-align: center;
+    }
+    p{
+        font-size: 30px;
+        text-align: start;
+    }
+    h2{
+        background-color: brown;
+        font-family: 'Lobster', cursive;
+        font-size: 45px;
+    }
+    .juegos_platformer section article h3{
+        text-align: center;
+        font-size: 50px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .juegos_platformer section article p{
+        text-align: center;
+        font-size: 35px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    #V1{
+        display: block;
+        margin: 0 auto 20px;
+        width: 700px;
+       
+    }
+    #V2{
+        display: block;
+        margin: 0 auto 20px;
+        height: 400px;
+    }
+    #V3{
+        display: block;
+        margin: 0 auto 20px;
+        height: 380px;
+    }
+    #V4{
+        display: block;
+        margin: 0 auto 20px;
+        height: 350px;
+    }
+    .pie{
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(109,109,222);
+        color: white; 
+    }
+    .pie p{
+        background-color: rgb(109, 109, 222);
+        font-size: 35px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .pie form{
+        background-color: rgb(109, 109, 222);
+    }
+    
+    .pie input{
+        background-color:rgb(38, 38, 87)
+    }
+ }

@@ -1,0 +1,43 @@
+*{
+    background-color: black;
+    color: white;}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: purple;
+    color: white;
+}
+h1{
+    background-color: purple;
+}
+#logo{
+    width: 100px;
+}
+p{
+    text-align: center;
+    font-size: 50px;
+}
+@media (min-width: 1024px){
+    *{
+        background-color: black;
+        color: white;}
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: purple;
+        color: white;
+        font-size: 30px;
+        font-family: 'Dancing Script', cursive;
+    }
+    #logo{
+        height: 170px;
+        width: 200px;
+    }
+    p{
+        text-align: center;
+        font-size: 90px;
+        font-family: 'Lobster', cursive;
+    }
+}
